@@ -1,8 +1,8 @@
 import { createContext } from "react";
 
 export const spotify = createContext({
-    client_id: '10198f0f3c404c80aa40b2db5a786d4a',
-    user_id: '31xggoj5rvzzshyi4mkydnxcnffa',
+    client_id: import.meta.env.VITE_API_KEY,
+    user_id: import.meta.env.VITE_API_USER_ID,
     REDIRECT_URI: 'http://localhost:5173',
     AUTH_ENDPOINT: 'https://accounts.spotify.com/authorize',
     RESPONSE_TYPE: 'token',
