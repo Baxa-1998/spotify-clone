@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import style from "./CreateModal.module.scss";
-import { RxPencil1 } from "react-icons/Rx";
+import { RxPencil1 } from "react-icons/rx";
 import { PiMusicNotesSimpleBold } from "react-icons/Pi";
 import { playlistCTX } from "../Context/PlaylistCTX";
 import { useContext } from "react";
