@@ -1,0 +1,65 @@
+.header{
+    width:-webkit-fill-available;
+    height: 90px;
+    padding-left: 40px;
+    padding-right: 42px ;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 9999;
+  
+    
+    .dropMenu{
+        
+        position: absolute;
+        right: 42px;
+        top: 80px;
+        color: #FFF;
+        font-size: 18px;
+        width: 254px; 
+        height: 268px;
+        background: #282828;
+        display: none;
+        ul{
+            display: flex;
+            flex-direction: column;
+        }
+        a{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            min-height: 52px;
+            width: 100%;
+            padding-right: 15px; 
+            padding-left: 21px;
+            font-weight: 500;
+            &:hover{
+                background: #3b3b3b;
+            }
+        }
+
+    }
+    .form{
+        position: relative;
+        margin-bottom: 15px; 
+        display: flex;
+        display: none;
+       
+    }
+    .show{
+        display: block;
+    }
+
+  
+   
+    .hide{
+        display: none;
+    }
+
+
+}
+.backActive{
+    background-color: black;
+}

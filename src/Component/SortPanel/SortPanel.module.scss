@@ -1,0 +1,26 @@
+.select{
+    width: 150px;
+    height: 50px;
+    background: none;
+    color: #fff;
+    outline: none;
+    font-weight: 500;
+    padding-right: 10px;
+    border: none;
+   
+    option{
+        width: 150px;
+        height: 75px;
+        font-size: 20px;
+        background: #282828;
+        padding: 25px;
+        &:selected {
+            background-color: gray;
+            color: white;
+          }
+       
+
+    }
+  
+
+}

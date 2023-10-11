@@ -1,0 +1,78 @@
+.artist{
+   
+    width: 224px;
+    height: 324px;
+    border: 1px solid black;
+    margin-top: 26px;
+    background: #181818;
+    border-radius: 6px;
+    z-index: 0;
+    transition: 300ms;
+    padding-right: 12px;
+    cursor: pointer;
+    img{
+        margin-left: 50%;
+        transform: translate(-50%);
+        margin-top: 20px;
+        z-index: 0;
+
+    }
+    h3{
+        color: #fff;
+        font-size: 20px; 
+        font-weight: 700;
+        margin-left: 21px;
+        margin-top: 25px;
+    }
+    p{
+        color: #fff;
+        font-size: 18px;
+        font-weight: 500; 
+        margin-left: 21px;
+
+
+    }
+    .imgBlock{
+        position: relative;
+z-index: 0;
+        transition: 300ms;
+        z-index: 0;
+        .play{
+            position: absolute;
+            z-index: 1;
+            left: 50px;
+            bottom: 0;
+            
+            opacity: 0;
+            
+           
+            
+        }
+
+    }
+    &:hover {
+        background-color: rgb(32, 32, 32);
+        .play{
+            opacity: 1; 
+            transition: 300ms;
+            
+           
+        }
+        
+    }
+  
+
+
+
+}
+
+
+@media screen and (max-width: 1500px){
+    .bodyItem {
+        &:nth-child(5){ 
+            display: none;
+    
+        }
+    }
+
+}

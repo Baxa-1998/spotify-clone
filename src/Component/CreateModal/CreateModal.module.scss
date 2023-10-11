@@ -1,0 +1,65 @@
+.createModal{
+     width: 100vw; 
+     height: 100vh; 
+     background: rgb(0, 0, 0, 0.4); 
+     position: fixed;
+     top: 0;
+     left: 0;
+     z-index: 9999;
+     display: flex; 
+     align-items: center;
+     justify-content: center;
+     visibility: hidden;
+
+     .addPhoto{
+        width: 150px;
+        height: 160px; 
+        background: #2b2929; 
+        display: flex;
+        align-items: center; 
+        justify-content: center;
+        margin-top: 25px; 
+      
+        cursor: pointer;
+        box-shadow: 10px 10px 10px black;
+        p{
+            visibility: hidden;
+        }
+        .note{
+            display: block;
+            margin: auto;
+           
+        }
+        .pencil{
+            display: none;
+            margin: auto;
+        }
+        &:hover{
+            p{
+                visibility: visible;
+
+            }
+            .note{
+                display: none;
+            }
+            .pencil{
+                display: block;
+            }
+
+        
+        }
+
+       
+         
+
+
+    }
+    // input{
+    //     width: 250px;
+    //     height: 25px;
+    // }
+    
+     
+
+
+}

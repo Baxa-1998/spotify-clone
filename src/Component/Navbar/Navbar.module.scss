@@ -1,0 +1,10 @@
+.navbar{
+    width: 80%; 
+    margin: auto;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    &::-webkit-scrollbar{
+        display: none;
+    }
+}

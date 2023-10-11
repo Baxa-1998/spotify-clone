@@ -1,0 +1,96 @@
+.createPlaylist{
+    width: 100%;
+    height: fit-content; 
+    background: linear-gradient(180deg, #40404b 0%, #121212 100%);
+    
+    border: 1px solid black;
+    padding-top: 90px;
+    // padding-left: 42px;
+    // padding-right: 43px;
+    .addPhoto{
+        width: 232px;
+        height: 232px; 
+        background: #2b2929; 
+        display: flex;
+        align-items: center; 
+        justify-content: center;
+        margin-top: 25px; 
+        margin-left: 43px;
+        cursor: pointer;
+        box-shadow: 10px 10px 10px black;
+        p{
+            visibility: hidden;
+        }
+        .note{
+            display: block;
+           
+        }
+        .pencil{
+            display: none;
+        }
+        &:hover{
+            p{
+                visibility: visible;
+
+            }
+            .note{
+                display: none;
+            }
+            .pencil{
+                display: block;
+            }
+        
+        }
+         
+
+
+    }
+    .addTracks{ 
+      
+        height: fit-content;
+        background: #151516;
+        // box-shadow: 10px 10px 10px black;
+        margin-top: 50px; 
+        padding-left: 43px;
+        padding-right: 43px;
+        padding-top: 25px;  
+        height: 1200px;
+        form{
+            display: flex;
+            margin-top: 15px;
+            align-items: center;
+           
+          
+            input{
+                position: relative; 
+                width: 450px;
+                height: 35px;
+                outline: none; 
+
+                background: #32323a; 
+                border-radius: 4px;
+                  box-shadow: 0px 2px 2px black;
+                  padding-left: 35px; 
+                  padding-right: 10px;
+                  color: #fff;
+                  font-weight:500;
+                  font-size: 18px;
+                
+                  
+    
+    
+            }
+        
+
+        }
+     
+
+      
+        
+
+    }
+  
+  
+
+
+} 
