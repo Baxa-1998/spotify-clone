@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./CreatePlaylist.module.scss";
 import { RxPencil1 } from "react-icons/rx";
-import { PiMusicNotesSimpleBold } from "react-icons/Pi";
+import { PiMusicNotesSimpleBold } from "react-icons/pi";
 import { useContext } from "react";
 import { userDataInfo } from "../Context/UserDataCTX";
 import { playlistCTX } from "../Context/PlaylistCTX";

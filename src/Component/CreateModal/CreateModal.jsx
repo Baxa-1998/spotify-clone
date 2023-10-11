@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import style from "./CreateModal.module.scss";
 import { RxPencil1 } from "react-icons/rx";
-import { PiMusicNotesSimpleBold } from "react-icons/Pi";
+import { PiMusicNotesSimpleBold } from "react-icons/pi";
 import { playlistCTX } from "../Context/PlaylistCTX";
 import { useContext } from "react";
 import { useState } from "react";
