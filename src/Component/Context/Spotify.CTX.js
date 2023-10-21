@@ -6,6 +6,7 @@ export const spotify = createContext({
   client_id: import.meta.env.VITE_API_KEY,
   user_id: import.meta.env.VITE_API_USER_ID,
   REDIRECT_URI: import.meta.env.VITE_REDIRECT_URL,
+  client_secret: import.meta.env.VITE_CLIENT_SECRET, 
 
   AUTH_ENDPOINT: 'https://accounts.spotify.com/authorize',
   RESPONSE_TYPE: 'token',
